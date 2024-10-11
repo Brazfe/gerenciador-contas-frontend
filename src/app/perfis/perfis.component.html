@@ -1,0 +1,57 @@
+<div class="container" style="padding-top: 50px;">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card mt-12">
+          <div class="card-header">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-center">Perfis</h3>
+                 </div>
+                 <div class="col-md-6" style="text-align: right;">
+                     <button (click)="voltar()" class="btn btn-primary">Voltar</button> 
+                 </div>
+             </div>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="usuario">Tipo Perfil:</label>
+                <input type="text" class="form-control" id="usuario"  required>
+              </div>
+              <div class="text-right"> 
+                <button type="submit" class="btn btn-primary btn-block mt-3">Salvar</button> 
+                <button type="submit" class="btn btn-primary btn-block mt-3" style="margin-left: 10px;">Limpar</button> 
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="padding-top: 50px;">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card mt-12">
+            <div class="card-header">
+                <h3 class="text-center">Lista de perfis</h3>
+            </div>
+            <div class="card-body">
+            <form>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Tipo perfil</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Administrador</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
