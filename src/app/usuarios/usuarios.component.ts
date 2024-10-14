@@ -188,6 +188,7 @@ export class UsuariosComponent  {
     this.usuarioSelecionadoId = null;
   }
 
+  
   excluirUsuario(usuario: any) {
     if (confirm(`Tem certeza que deseja excluir o usuário ${usuario.nome}?`)) {
       this.usuarioServico.excluirUsuario(usuario.id).subscribe(() => {
