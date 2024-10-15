@@ -4,7 +4,9 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
-
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
@@ -17,6 +19,9 @@ import { Router } from '@angular/router';
   imports: [
     FormsModule,
     CommonModule,
+    MatSlideToggleModule,
+    MatFormFieldModule, 
+    MatInputModule
     ] 
 })
 export class LoginComponent {
